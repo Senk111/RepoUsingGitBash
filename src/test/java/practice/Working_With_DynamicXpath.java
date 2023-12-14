@@ -13,6 +13,7 @@ public class Working_With_DynamicXpath {
 
 	public static void main(String[] args) 
 	{
+		//Made Changes for GitBash PULL
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
